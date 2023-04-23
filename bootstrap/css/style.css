@@ -1,0 +1,94 @@
+.bg-teal , .btn-teal{
+    background-color: #ff9933!important;
+}
+.text-teal{
+
+    color:#800000 ;
+}
+.carousel .carousel-indicators li {
+    width: 50px;
+    height: 5px;
+
+    border-radius: 0%
+}
+.carousel-caption{
+
+    bottom: 200px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.col-md-3 img{
+    border-radius:10px ;
+    transition: 0.4s ease;
+}
+.col-md-3 img:hover{
+    transform: scale(1.1);
+}
+
+#Developers h1{
+text-align: center;
+font-size: 50px;
+}
+#Developers h1 span{
+    color: #800000;
+}
+#Developers .fab{
+    font-size: 30px;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    color: #800000;
+}
+#Developers .fab:hover{
+transform: scale(1.2);
+}
+.form-submit{
+    text-align: center;
+    
+}
+.form-submit a{
+    color: white;
+}
+.form-submit a:hover{
+    color: hsl(30, 70%, 48%);
+} 
+#follow .m-3{
+    transition: 0.6s ease;
+    color: #800000;
+}
+#follow .m-3:hover{
+    transform: scale(1.4);
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        bottom: 20px;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
+.container div{
+     font-size: 18px;
+     margin:30px 0;
+
+}
+.container .sloka{
+    text-align: center;
+}
+.card-body img{
+   border-radius: 200%;
+   margin-bottom: 20px;
+   width: 50%;
+   height: 50%;
+   box-shadow: 1px 1px  8px hwb(0 25% 74%);
+   transition: 0.4s ease;;
+}
+.card-body img:hover{
+transform: scale(1.1);
+}

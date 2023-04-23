@@ -1,0 +1,36 @@
+.bg-teal , .btn-teal{
+    background-color: #ff9933!important;
+}
+
+.div img{
+    width: 40%;
+    height: 40%;
+    
+}
+.div{
+    margin: 30px 0;
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
+.about div{
+margin: 20px 0;
+}
+.about-1{
+    padding: 0 100px;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media (max-width: 576px) {
+    .carousel-caption {
+        bottom: 20px;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
